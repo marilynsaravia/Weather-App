@@ -28,6 +28,7 @@ function App() {
     <div className='flex flex-col items-center p-5 relative gap-4'>
       <Search location={location} setLocation={setLocation} searchLocation={searchLocation} />
       <Result weatherData={data} />
+      <p className='text-center text-sm'>Desarrollado por: <a className='text-secondary-pink hover:text-primary-pink no-underline' href='https://www.linkedin.com/in/marilynsaravia/' target='_blank'>Marilyn Saravia</a>.</p>
     </div>
   );
 }
